@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sandboxToken">QFSD3030402020</string>
+    <string name="deepBaseUrl">https://www.deepsiam.club/api/diving-school-activities/</string>
+    <string name="getAllActivitiesUrl">get-activities-list</string>
+    <string name="setActivityDescriptionBaseUrl">set-activity-description/?</string>
+    <string name="getClientByHashBaseUrl">get-by-hash?</string>
+    <string name="createGroupBaseUrl">create-group/?</string>
+</resources>

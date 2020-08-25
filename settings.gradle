@@ -1,0 +1,3 @@
+include ':groups'
+include ':app'
+rootProject.name = "DeepSiamGroups"
