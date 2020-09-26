@@ -2,7 +2,7 @@ package com.deepsiam.injection.module
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.deepsiam.features.groups.GroupsViewModel
+import com.deepsiam.features.groups.FeaturesViewModel
 import com.deepsiam.ViewModelFactory
 import com.deepsiam.injection.ViewModelKey
 import com.deepsiam.injection.scope.AppScoped
@@ -19,6 +19,6 @@ abstract class ViewModelModule {
 
     @Binds
     @IntoMap
-    @ViewModelKey(GroupsViewModel::class)
-    abstract fun bindGroupsViewModel(viewModel: GroupsViewModel): ViewModel
+    @ViewModelKey(FeaturesViewModel::class)
+    abstract fun bindGroupsViewModel(viewModel: FeaturesViewModel): ViewModel
 }

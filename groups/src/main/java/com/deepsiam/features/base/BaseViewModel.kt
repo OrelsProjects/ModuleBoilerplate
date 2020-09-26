@@ -21,11 +21,6 @@ abstract class BaseViewModel<S : BaseViewState>(
         return this.stateLiveData
     }
 
-//    fun resetNewActivity() {
-////        viewState.newActivity = null
-//        updateUI()
-//    }
-
     fun updateUI() {
         stateLiveData.postValue(viewState)
     }
