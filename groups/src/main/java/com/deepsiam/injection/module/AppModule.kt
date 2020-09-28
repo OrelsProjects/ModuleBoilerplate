@@ -11,6 +11,5 @@ import javax.inject.Named
 class AppModule {
 
     @Provides
-    @Named("DeepModuleContext")
-    fun bindContext(application: Application): Context = application
+    fun bindContext(@Named("FeatureModuleContext") application: Application): Context = application
 }
